@@ -19,17 +19,78 @@ body {
   -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
   font-feature-settings: "kern", "liga", "clig", "calt";
 }
+/* class */
+.brand h1 {
+	font-size: 3rem;
+	text-transform: uppercase;
+	color: white;
+}
+.brand h1 span {
+	color: crimson;
+}
+.container {
+	min-height: 100vh;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
 article,
 aside,
 details,
 figcaption,
 figure,
-footer,
+footer {
+  background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+}
+ /* NavBar */
+
+/* Footer */
+#footerBlock {
+  min-height: 200px;
+	flex-direction: column;
+	padding-top: 50px;
+	padding-bottom: 10px;
+}
+.social-icon {
+  display: flex;
+	margin-bottom: 30px;
+}
+
+.social-item {
+	height: 50px;
+	width: 50px;
+	margin: 0 5px;
+}
+.social-item img {
+	filter: grayscale(1);
+	transition: .3s ease filter;
+}
+
+.social-item:hover img {
+	filter: grayscale(0);
+}
+
+p {
+  color: black;
+	font-size: 1.4rem;
+	margin-top: 5px;
+	line-height: 2.5rem;
+	font-weight: 300;
+	letter-spacing: .05rem;
+}
+/* End Footer */
+
 header,
 main,
 menu,
 nav,
 section,
+span {
+  color: crimson;
+}
+
 summary {
   display: block;
 }
@@ -595,3 +656,8 @@ pre tt:after {
     font-size: 100%;
   }
 }
+/*Media Query for tablets*/
+@media only screen and (min-width: 768px) {
+}
+
+/*End Media Query for tablets*/

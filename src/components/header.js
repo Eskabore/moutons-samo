@@ -12,8 +12,9 @@ const Header = ({ siteTitle }) => (
     <div
       style={{
         margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
+        minHeight: `8vh`,
+	backgroundColor: `rgba(31, 30, 30, 0.24)`,
+	transition: `.3s ease background-color`,
       }}
     >
       <h1 style={{ margin: 0 }}>
@@ -36,7 +37,7 @@ Header.propTypes = {
 }
 
 Header.defaultProps = {
-  siteTitle: ``,
+  siteTitle: `SOGOSO`,
 }
 
 export default Header
