@@ -1,0 +1,3 @@
+extend default function App() {
+	
+}
