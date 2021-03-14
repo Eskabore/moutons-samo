@@ -5,7 +5,7 @@ import MenuIcon from '@material-ui/icons/Menu';
 import SearchIcon from '@material-ui/icons/Search';
 import { AppBar } from 'material-ui';
 
-const useStyles = makeStyles((themes) => ({
+const useStyles = makeStyles((theme) => ({
   root:{
     flexGrow: 1
   },
